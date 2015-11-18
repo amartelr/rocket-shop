@@ -1,3 +1,5 @@
+0) Enlaces https://atmospherejs.com/
+
 github
 …or create a new repository on the command line
 
@@ -38,4 +40,23 @@ meteor add twbs:bootstrap
 ```
 mkdir client/templates/_partials
 touch client/templates/_partials/nav.html
+```
+
+2) iron-router
+
+> https://github.com/iron-meteor/iron-router
+
+```
+meteor add iron:router
+```
+
+```
+touch lib/router.js
+```
+> Couldn't find a template named "layout" or "layout". Are you sure you defined it?
+> tenemos que poner las directivas de template en layout.html y eliminar head y body
+> el titulo lo ponemos en otro fichero
+
+```
+touch client/main.html
 ```

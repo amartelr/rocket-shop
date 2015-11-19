@@ -133,4 +133,5 @@ https://github.com/robconery/meteor-shop/tree/master/pluralsight/snippets
 
 ```
 touch client/stylesheets/home.css
+touch client/stylesheets/product-tile.css
 ```

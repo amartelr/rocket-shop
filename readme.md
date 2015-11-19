@@ -60,3 +60,44 @@ touch lib/router.js
 ```
 touch client/main.html
 ```
+
+3) iron-router 2
+
+```
+touch client/templates/app/404.html
+```
+> copiamos de http://bootsnipp.com/snippets/featured/simple-404-not-found-page
+> excluimos el primer div <div class="container"> y añadimos el css sin el body
+
+```
+touch client/templates/app/loading.html
+```
+> En lugar de copiar una plantilla vamos a https://atmospherejs.com/
+
+meteor add pcel:loading
+
+```
+touch client/templates/app/loading.js
+```
+Que lo copiamos de su ejemplo además de css
+
+Ahora tenemos que poner en el layout {{>yield}} por el div de starter-template
+y definimos las rutas en router.js.
+
+
+```
+mkdir client/templates/home
+touch client/templates/home/index.html
+```
+
+>Probamos la funcionalidad de data de iron-route
+>Añadimos el resto de rutas
+
+```
+touch client/templates/home/about.html
+touch client/templates/home/contact.html
+```
+
+> Tenemos que corregir los link del navegador con la instrucción {{pathFor 'homeIndex'}}
+
+4) iron-router 3

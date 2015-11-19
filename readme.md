@@ -135,3 +135,13 @@ https://github.com/robconery/meteor-shop/tree/master/pluralsight/snippets
 touch client/stylesheets/home.css
 touch client/stylesheets/product-tile.css
 ```
+
+7) Datos
+
+```
+mkdir lib/collections
+touch lib/collections/products.js
+touch lib/collections/users.js
+touch client/templates/home/index.js
+```
+

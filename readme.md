@@ -145,3 +145,21 @@ touch lib/collections/users.js
 touch client/templates/home/index.js
 ```
 
+8) Accounting.js para formatear
+http://openexchangerates.github.io/accounting.js/
+http://momentjs.com/
+MARKDOWN HTML https://github.com/showdownjs/showdown
+
+> incluir las librerías javascript en /client/scripts
+
+accounting.min.js
+knockout-3.3.0.js
+moment.min.js
+showdown.min.js
+stripe_checkout.js
+
+```
+touch client/main.js
+touch client/templates/_partials/product_tile.html
+```
+

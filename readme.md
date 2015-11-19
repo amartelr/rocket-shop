@@ -227,3 +227,41 @@ http://docs.meteor.com/#/full/accounts_config
 mkdir client/config
 touch client/config/accounts.js
 ```
+
+
+3) github, google auth
+
+# meteor add accounts-github
+meteor add accounts-google
+
+> https://console.developers.google.com/
+
+First, you'll need to get a Google Client ID. Follow these steps:
+
+Visit https://console.developers.google.com/
+"Create Project", if needed. Wait for Google to finish provisioning.
+On the left sidebar, go to "APIs & auth" and, underneath, "Consent Screen". Make sure to enter an email address and a product name, and save.
+On the left sidebar, go to "APIs & auth" and then, "Credentials". "Create New Client ID", then select "Web application" as the type.
+Set Authorized Javascript Origins to: http://localhost:3000/
+Set Authorized Redirect URI to: http://localhost:3000/_oauth/google
+Finish by clicking "Create Client ID".
+
+4) Role Authorization
+>update failed: Access denied
+
+
+```
+meteor mongo
+db.users.remove({_id:"n5tuAYQbky4RDhJ5j"});
+db.users.remove({_id:"gBLvcrntAFyf6wwra"});
+```
+
+meteor add alanning:roles
+meteor remove autopublish
+
+Desde la consola
+```
+meteor mongo
+db.users.update({_id : "KKs4ZAakZjrSftE82"}, {$set : {roles : ["Administrator"]}})
+```
+

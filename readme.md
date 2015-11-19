@@ -217,3 +217,13 @@ meteor add accounts-password
 Ahora podemos ver desde la consola del navegado una vez logeo 
 Meteor.user()
 
+2) Configuration 
+Accounts
+http://docs.meteor.com/#/full/accounts_api
+Accounts Config
+http://docs.meteor.com/#/full/accounts_config
+
+```
+mkdir client/config
+touch client/config/accounts.js
+```

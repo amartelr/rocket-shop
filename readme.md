@@ -163,3 +163,19 @@ touch client/main.js
 touch client/templates/_partials/product_tile.html
 ```
 
+9) Product Page
+
+```
+mkdir client/templates/products
+touch client/templates/products/show.html
+```
+
+Como uno de los registro tiene codigo markdown lo registramos en main.js
+
+
+UI.registerHelper("markdown", function(text){
+    var converter = new showdown.Converter();
+    return converter.makeHtml(text);
+});
+
+<p class="lead">{{{markdown description}}}</p>

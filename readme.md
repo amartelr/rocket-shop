@@ -115,3 +115,12 @@ mkdir public/images/products
 mkdir public/images/splash
 mkdir public/images/vendors
 ```
+
+5) favicon 2
+
+```
+touch client/favicons.html
+```
+
+>Con el fichero generado por la página web con esta ruta href="/images/icon/apple-icon-57x57.png">
+> Este fichero será injectado en main.html

@@ -100,4 +100,18 @@ touch client/templates/home/contact.html
 
 > Tenemos que corregir los link del navegador con la instrucción {{pathFor 'homeIndex'}}
 
-4) iron-router 3
+4) favicon en : 
+http://www.danstools.com/
+http://www.favicon-generator.org/
+y los ponemos en la carpeta de icon
+
+```
+mkdir public/images
+mkdir public/images/icon
+```
+
+```
+mkdir public/images/products
+mkdir public/images/splash
+mkdir public/images/vendors
+```

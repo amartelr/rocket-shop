@@ -265,3 +265,16 @@ meteor mongo
 db.users.update({_id : "KKs4ZAakZjrSftE82"}, {$set : {roles : ["Administrator"]}})
 ```
 
+C) 
+
+
+
+1)   Product Collections
+
+https://www.discovermeteor.com/blog/meteor-and-security
+
+```
+touch server/seeds.js
+```
+
+Products.featured().fetch()

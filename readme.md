@@ -179,3 +179,12 @@ UI.registerHelper("markdown", function(text){
 });
 
 <p class="lead">{{{markdown description}}}</p>
+
+10) deploy
+
+https://www.meteor.com/account-settings
+
+```
+meteor deploy mi-rocket-shop
+```
+

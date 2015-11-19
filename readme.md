@@ -1,3 +1,5 @@
+A) 
+
 0) Enlaces https://atmospherejs.com/
 
 github
@@ -187,4 +189,31 @@ https://www.meteor.com/account-settings
 ```
 meteor deploy mi-rocket-shop
 ```
+
+B) AUTHENTICATION
+
+1) Setup
+
+https://atmospherejs.com/
+
+```
+meteor add ian:accounts-ui-bootstrap-3
+meteor add accounts-password
+```
+
+añadimos la plantilla de login
+```
+<ul class="nav navbar-nav navbar-right">
+            {{> loginButtons}} <!-- here -->
+</ul>
+```
+
+> nos da el error No login services configured
+
+```
+meteor add accounts-password
+```
+
+Ahora podemos ver desde la consola del navegado una vez logeo 
+Meteor.user()
 

@@ -83,7 +83,7 @@ Que lo copiamos de su ejemplo además de css
 
 Ahora tenemos que poner en el layout {{>yield}} por el div de starter-template
 y definimos las rutas en router.js.
-
+    
 
 ```
 mkdir client/templates/home
@@ -124,3 +124,13 @@ touch client/favicons.html
 
 >Con el fichero generado por la página web con esta ruta href="/images/icon/apple-icon-57x57.png">
 > Este fichero será injectado en main.html
+
+
+6) HomePage
+https://github.com/robconery/meteor-shop
+https://github.com/robconery/meteor-shop/tree/master/pluralsight/snippets
+> Arreglamos la página de index copiado de github y añadimos css
+
+```
+touch client/stylesheets/home.css
+```

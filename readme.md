@@ -317,3 +317,11 @@ reiniciaremos meteor.
 ```
 meteor reset
 ```
+4) The insecure Package (insecure, autopublish)
+ 
+
+Default packages list
+```
+meteor list
+meteor remove insecure
+```

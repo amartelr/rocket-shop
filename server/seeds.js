@@ -177,7 +177,7 @@ if(Products.find().count() === 0){
         console.log("Inserted ", product.sku);
     })
 }
-/*
+
 if(Meteor.users.find().count() === 0){
     var id = Accounts.createUser({
         username : "Administrator",
@@ -190,7 +190,7 @@ if(Meteor.users.find().count() === 0){
     Roles.addUsersToRoles(id, ["Administrator"]);
     console.log("Added Admin user...");
 }
-
+/*
 if(Vendors.find().count() === 0){
     var vendors = [
         {

@@ -297,8 +297,23 @@ Products.featured = function(){
 >from console: Products.featured().fetch()
 
 > Debemos procurar que no cambien los datos por ejemplo 
-Products.update({_id : "dFQR6vMDCNYaC3jN5"}, {$set : {price : 0}})
+Products.update({_id : "dFQR6vMDCNYaC3jN5"}, {$set : {price : 100}})
         
-3) Using Allow
+3) Using Allow (inherent security issues)
+http://docs.meteor.com/#/full/allow
 
+```
+touch lib/permissions.js
+```
 
+from console test y comprobamos que no tenemos usuarios:
+```
+isAdmin();
+Meteor.users.find().fetch();
+```
+Para ello pondremos usuarios por defecto en seeds.js, para ello 
+reiniciaremos meteor.
+
+```
+meteor reset
+```

@@ -278,3 +278,27 @@ touch server/seeds.js
 ```
 
 Products.featured().fetch()
+
+
+2) Restricting Fields
+
+Clean Mongo
+```
+meteor reset
+```
+We want to hide cost and iventory fields
+```
+Products.featured = function(){
+    var featuredSkus = ["honeymoon-mars","johnny-liftoff","one-way-reentry"];
+    return Products.find({sku : {$in : featuredSkus}},
+        {fields : {inventory : false, cost : false}});
+```
+        
+>from console: Products.featured().fetch()
+
+> Debemos procurar que no cambien los datos por ejemplo 
+Products.update({_id : "dFQR6vMDCNYaC3jN5"}, {$set : {price : 0}})
+        
+3) Using Allow
+
+

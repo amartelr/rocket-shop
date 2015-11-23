@@ -340,6 +340,16 @@ meteor reset
 
 > añadimos a la plantilla
 
+```
   {{#with vendor}}
                 <p><a href="{{pathFor 'vendor'}}">{{name}}</a></p>
-    {{/with}}
+  {{/with}}
+```  
+    
+6) ORM
+
+https://github.com/jagi/meteor-astronomy
+https://github.com/Exygy/minimongoid
+https://github.com/dburles/meteor-collection-helpers
+https://github.com/emmerge/graviton
+

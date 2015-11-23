@@ -419,3 +419,12 @@ touch client/templates/cart/show.js
  touch client/notification.html
  ```
  client/main.html
+ 
+ E) CHECKOUT
+ 1) Installing tools
+ https://stripe.com/checkout
+ https://github.com/robconery/massive-js
+ https://github.com/meteorhacks/npm
+ http://knockoutjs.com/
+ 
+ 

@@ -3,4 +3,3 @@ Template.homeIndex.helpers({
         return Products.featured();
     }
 });
-

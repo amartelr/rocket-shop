@@ -325,3 +325,18 @@ Default packages list
 meteor list
 meteor remove insecure
 ```
+5) Adding Vendors
+
+```
+touch lib/collections/vendors.js
+```
+> Hay que cargarlos por el fichero seed.js
+
+
+meteor reset
+
+> añadimos a la plantilla
+
+  {{#with vendor}}
+                <p><a href="{{pathFor 'vendor'}}">{{name}}</a></p>
+    {{/with}}

@@ -190,7 +190,7 @@ if(Meteor.users.find().count() === 0){
     Roles.addUsersToRoles(id, ["Administrator"]);
     console.log("Added Admin user...");
 }
-/*
+
 if(Vendors.find().count() === 0){
     var vendors = [
         {
@@ -218,4 +218,3 @@ if(Vendors.find().count() === 0){
         console.log("Added ", vendor.name);
     });
 }
-*/

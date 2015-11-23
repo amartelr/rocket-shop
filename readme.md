@@ -393,9 +393,21 @@ Load Order:
  touch tests/mocha/server/shopping_cart_server.js
  touch lib/collections/carts.js
  touch lib/shopping_carts.js
- mkdir client/templates/cart
+ 
  ```
  
  >write in console to write cart
  getCart(function(err,res){console.log(res)})
+ 
+ 3) The Cart Page
+ >copy html from http://bootsnipp.com/snippets/featured/shopping-cart-bs-3
+ 
+```
+mkdir client/templates/cart
+touch client/templates/cart/show.html
+touch client/templates/cart/show.js
+
+```  
+ 
+ 
  

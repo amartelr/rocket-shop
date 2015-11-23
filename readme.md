@@ -433,3 +433,7 @@ touch client/templates/cart/show.js
    touch client/templates/checkout/show.html
    touch client/templates/checkout/show.js
    ```
+   
+ 3) Knockout ViewModel
+ 
+ touch client/templates/checkout/checkout_view_model.js

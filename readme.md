@@ -370,3 +370,22 @@ Load Order:
  /Meteor.startup()
  *main*
  
+ 
+ D) TESTING
+ 
+ 1) Testing Setup
+ 
+ https://github.com/meteor-velocity/velocity
+ https://github.com/mad-eye/meteor-mocha-web/
+ 
+ ```
+ meteor add mike:mocha
+ ```
+ [velocity] You can see the mirror logs at: tail -f .meteor/local/log/mocha.log
+ 
+ >Click Add moka simple test from website
+ > this create a 2 test folder into de proyect (client/server)
+ 
+ 
+ 
+ 

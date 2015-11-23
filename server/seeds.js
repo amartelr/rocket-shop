@@ -1,3 +1,5 @@
+console.log("Seeds Launched!");
+
 var productSeeds = [
     {
         "sku" : "illudium-q36",

@@ -353,3 +353,20 @@ https://github.com/Exygy/minimongoid
 https://github.com/dburles/meteor-collection-helpers
 https://github.com/emmerge/graviton
 
+7) Namespacing in Meteors is hard.
+http://info.meteor.com/blog/meteor-065-namespacing-modularity-new-build-system-source-maps
+https://medium.com/meteor-js/meteor-managing-the-global-namespace-5a50080a05ea#.w60tnzfzm
+Each app or package gets its own namespace. Use global variables as much as you want: Meteor generates a wrapper around your code so that they are "global" only to the app or package that defined them
+
+
+```
+touch lib/init.js
+```
+
+Load Order:
+ /lib
+ /server
+ /client
+ /Meteor.startup()
+ *main*
+ 

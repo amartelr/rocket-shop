@@ -427,4 +427,9 @@ touch client/templates/cart/show.js
  https://github.com/meteorhacks/npm
  http://knockoutjs.com/
  
- 
+ 2) Checkout: Routes and Templates
+   ```
+   mkdir client/templates/checkout
+   touch client/templates/checkout/show.html
+   touch client/templates/checkout/show.js
+   ```

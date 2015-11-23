@@ -409,5 +409,13 @@ touch client/templates/cart/show.js
 
 ```  
  
+ 4) Notifications
+ https://atmospherejs.com/juliancwirko/s-alert
  
  
+ ```
+ meteor add juliancwirko:s-alert
+ touch client/config/notification.js
+ touch client/notification.html
+ ```
+ client/main.html

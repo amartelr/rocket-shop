@@ -388,4 +388,14 @@ Load Order:
  
  
  
+ 2) Cart Tests
+ ```
+ touch tests/mocha/server/shopping_cart_server.js
+ touch lib/collections/carts.js
+ touch lib/shopping_carts.js
+ mkdir client/templates/cart
+ ```
+ 
+ >write in console to write cart
+ getCart(function(err,res){console.log(res)})
  

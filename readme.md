@@ -329,6 +329,9 @@ meteor remove insecure
 
 ```
 touch lib/collections/vendors.js
+mkdir client/templates/vendors
+touch client/templates/vendors/show.html
+touch client/templates/vendors/show.js
 ```
 > Hay que cargarlos por el fichero seed.js
 
